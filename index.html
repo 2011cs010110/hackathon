@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title >KALASTORE</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+<link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet"> 
+<link href="node_modules/font-awesome/css/font-awesome.css" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@100;300;900&family=Water+Brush&display=swap" rel="stylesheet">
+ <link href="css/customtheme.css" rel="stylesheet">
+</head>
+ <body > 
+    
+        <!-- section 1 header and navigation -->
+        <section> 
+            
+            <nav class="navbar navbar-light navbar-expand-lg bg-light  fixed-top">
+                <div class="container">
+                  <a class="navbar-brand" href="#">KALASTORE</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Categories </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="Phulkari.html">Phulkari</a></li>
+                          <li><a class="dropdown-item" href="Handmade.html">Handmade jewellery</a></li>
+                          <li><a class="dropdown-item" href="Painting.html">Traditional Paintings</a></li>
+                          <li><a class="dropdown-item" href="Paper.html">Paper Craft</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="other.html">other</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#cart"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </svg></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="register.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                        </svg></a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+       
+    
+
+        </section> 
+<section class="container">
+            <div class="container-fluid bg-dark text-warning">
+              <marquee>
+                sign-up now to get 10% discount ~ welcome to Kalastore ~ Get amazing offers 
+              </marquee>
+            </container-fluid>
+</section>
+        <!-- section 2 baner -->
+        <section> 
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/01.jpg" class="d-block w-100" alt="made with love">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>KALASTORE</h5>
+                  <p>Made with love</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/03.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>best handmade items</h5>
+                  <p>bring tradition as a fashion in each home</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/02.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-dark">
+                  <h5 >uniqueness </h5>
+                  <p>Each item is unique and see what is it made up of </p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+  </section>
+       
+        <!-- section 3 category -->
+        <section>
+          <div class="container">
+            <div class="row pt-5">
+               <h1 class="text-center  text-dark">Shop By Categories</h1>
+         </div>
+          <div class="card-group">
+            <div class="card">
+              <img src="images/cat-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Phulkari</h5>
+                <p class="card-text">The entire cloth is embroidered and filled with flowers.</p>
+                <a href="Phulkari.html" class="btn btn-primary">explore</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/wooden.jpg" class="card-img-top" alt="wooden">
+              <div class="card-body">
+                <h5 class="card-title">wall decor</h5>
+                <p class="card-text">Wooden cutout wall decor pieces will help you make your walls look unique </p>
+                <a href="Phulkari.html" class="btn btn-primary">explore</a>
+              </div>
+            </div>  
+            <div class="card">
+              <img src="images/paper.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Paper Craft</h5>
+                <p class="card-text">Base Made up of Recyclabale items to design anything</p>
+                <a href="Phulkari.html" class="btn btn-primary">explore</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/kashida.jpg" class="card-img-top" alt="kashida">
+              <div class="card-body">
+                <h5 class="card-title">Kashida Embroidery</h5>
+                <p class="card-text">Defines its cultural essence through medium of bead & thread work</p>
+                <a href="Phulkari.html" class="btn btn-primary">explore</a>
+              </div>
+            </div>
+          
+           
+          </div>
+          <div class="card-group">
+              <div class="card">
+              <img src="images/beadwork.jpg" class="card-img-top" alt="beadwork">
+              <div class="card-body">
+                <h5 class="card-title">Beadwork</h5>
+                <p class="card-text">Craft of attaching beads to one another by stringing them with sewing</p>
+                <a href="Phulkari.html" class="btn btn-primary">explore</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/jewelley.jpg" class="card-img-top" alt="jewelley">
+              <div class="card-body">
+                <h5 class="card-title">Handmade jewellery</h5>
+                <p class="card-text">jewellery designed rendered by detailed technical drawings </p>
+                <a href="Phulkari.html" class="btn btn-primary">explore</a>
+              </div>
+            </div>   
+            <div class="card">
+              <img src="images/paint.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Traditional Paintings</h5>
+                <p class="card-text">known for Elegance,Muted colors & Detailing</p>
+                <a href="Phulkari.html" class="btn btn-primary">explore</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/marble.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Marble Craft</h5>
+                <p class="card-text">These are crafted on Makarana marbles with Meenakari & Kundan work.</p>
+                <a href="Phulkari.html" class="btn btn-primary">explore</a>
+              </div>
+            </div> 
+          </div>
+        </section> 
+         <!-- section 4 latest products -->
+        <section>
+          <div class="container">
+            <div class="row pt-5">
+               <h1 class="text-center  text-dark">New Arrivals</h1>
+         </div>
+         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="images/crochetbag.jpg" class="card-img-top" alt="bag">
+                    <div class="card-header">
+                      <small class="text-muted">MACRAME</small>
+                    </div>
+                    <div class="card-body"> 
+                      <p class="card-text">Handknotted Crochet Small Hand bag</p>
+                      <div class="card-footer">
+                        <small class="text-muted">1,310.00 INR</small>
+                      </div>
+                      <a href="handknot.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/container.jpg" class="card-img-top" alt="bag">
+                    <div class="card-header">
+                      <small class="text-muted">WOODEN</small>
+                    </div>
+                    <div class="card-body"> 
+                      <p class="card-text">Bhadohi basket craft-Multi utility</p>
+                      <div class="card-footer">
+                        <small class="text-muted">1,310.00 INR</small>
+                      </div>
+                      <a href="handknot.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/budha.jpg" class="card-img-top" alt="bag">
+                    <div class="card-header">
+                      <small class="text-muted">FRAMES</small>
+                    </div>
+                    <div class="card-body"> 
+                      <p class="card-text">Buddha key hanger-stunning black</p>
+                      <div class="card-footer">
+                        <small class="text-muted">680.00 INR</small>
+                      </div>
+                      <a href="handknot.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/giftbox.jpg" class="card-img-top" alt="bag">
+                    <div class="card-header">
+                      <small class="text-muted">GIFTBOX</small>
+                    </div>
+                    <div class="card-body"> 
+                      <p class="card-text">Apple shape dry fruit gift box</p>
+                      <div class="card-footer">
+                        <small class="text-muted">650.00 INR</small>
+                      </div>
+                      <a href="handknot.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="images/bells.jpg" class="card-img-top" alt="bells">
+                    <div class="card-header">
+                      <small class="text-muted">FLORAL SYMPHONIES</small>
+                    </div>
+                    <div class="card-body"> 
+                      <p class="card-text">Decorative hanignig bells wind chime</p>
+                      <div class="card-footer">
+                        <small class="text-muted">1,199.00 INR</small>
+                      </div>
+                      <a href="handknot.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/bottle.jpg" class="card-img-top" alt="bag">
+                    <div class="card-header">
+                      <small class="text-muted">vase set</small>
+                    </div>
+                    <div class="card-body"> 
+                      <p class="card-text">Madhubani terracotta vase set</p>
+                      <div class="card-footer">
+                        <small class="text-muted">1,310.00 INR</small>
+                      </div>
+                      <a href="handknot.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/lamp.jpg" class="card-img-top" alt="bag">
+                    <div class="card-header">
+                      <small class="text-muted">LAMP</small>
+                    </div>
+                    <div class="card-body"> 
+                      <p class="card-text">Table lamp decor your table</p>
+                      <div class="card-footer">
+                        <small class="text-muted">2010.00 INR</small>
+                      </div>
+                      <a href="table.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/saree.jpg" class="card-img-top" alt="bag">
+                    <div class="card-header">
+                      <small class="text-muted">CHINKARI EMBROIDED</small>
+                    </div>
+                    <div class="card-body"> 
+                      <p class="card-text">kota doria cotton saree</p>
+                      <div class="card-footer">
+                        <small class="text-muted">4500.00 INR</small>
+                      </div>
+                      <a href="handknot.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+           </section>
+         <!-- section 5 about us-->
+        <section> 
+
+          <div class="container">
+             <div class="row pt-5">
+                <h1 class="text-center display-1 text-dark">About us</h1>
+          </div>
+          <div class="card mb-3  border-light"  >
+           
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/kala.png" class="img-fluid rounded-start" alt="kalastore">
+              </div>
+              <div class="col-md-8">
+
+             <div class="card-body">
+              <h5 class="card-title">A aim for revival</h5>
+              <p class="card-text">KALASTORE with a vision to promote Indian handicrafts
+                 globally & help small artisans based in different parts of India earn a living out of it.
+                  Amazing Traditional Indian Handicrafts You will Love.<br>
+                  We supply our items all around the world and are highly praised and
+                   demanded not only in India but overseas as well.
+                   Timely delivery and customer service are our pride.<br>
+                  Get connected to the kalastore way of life </p>
+              <a href="About.html" class="btn btn-primary">Know more</a>
+              </div>
+            </div>
+            </div>
+          </div>
+         
+         
+          
+        </section>
+      
+        <!-- section 6 Testimonials -->
+        <section> </section>
+        <!-- section 7 footer -->
+        <section> 
+          <footer class="bg-dark text-white pt-5 pb-4">
+            <div class="container text-center text-md-left">
+              <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                   <h5 class="text-uppercase mb-4 font-weight-bold text-warning">KALASTORE</h5>
+                   <p>jhjds</p>
+                  </div>
+               <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                 <h5 class="text-uppercase mb-4 font-weight-bold text-warning">products</h5>
+                 <p>
+                   <a href="#" class="text-white">KALASATORE</a>
+                 </p>
+                 <p>
+                  <a href="#" class="text-white">KALASATORE</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">KALASATORE</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">KALASATORE</a>
+                </p>
+               </div>
+               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                 <h5 class="text-uppercase mb-4 font-weight-bold text-warning">important links</h5>
+                 <p>
+                  <a href="#" class="text-white">KALASATORE</a>
+                </p>
+                <p>
+                 <a href="#" class="text-white">KALASATORE</a>
+               </p>
+               <p>
+                 <a href="#" class="text-white">KALASATORE</a>
+               </p>
+               <p>
+                 <a href="#" class="text-white">KALASATORE</a>
+               </p>
+               </div>
+               <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                 <h5 class="text-uppercase mb-4 font-weight-bold text-warning">contact us</h5>
+                 <p>
+                   <i class="fas fa-home mr-3"></i>&nbsp India
+                 </p>
+               </div>
+              </div>
+            </div>
+          </footer>
+        </section>
+        
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
